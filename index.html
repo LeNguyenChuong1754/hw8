@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>個人自我介紹</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <!-- 主頁 -->
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>個人自我介紹</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>基本資訊</h2>
+        <ul data-role="listview">
+          <li>
+            <h3>姓名</h3>
+            <p>黎源璋</p>
+          </li>
+          <li>
+            <h3>性別</h3>
+            <p>男</p>
+          </li>
+          <li>
+            <h3>年齡</h3>
+            <p>18歲</p>
+          </li>
+          <li>
+            <h3>電子郵件</h3>
+            <p>lenguyenchuong3296@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" data-transition="pop" class="ui-btn-active ui-state-persist">基本資訊</a></li>
+            <li><a href="#interests" data-transition="pop">興趣愛好</a></li>
+            <li><a href="#education" data-transition="pop">學歷經歷</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+     <!-- 興趣愛好頁面 -->
+     <div data-role="page" id="interests">
+        <div data-role="header">
+          <h1>興趣愛好</h1>
+        </div>
+  
+        <div data-role="main" class="ui-content">
+          <h2>喜愛的運動</h2>
+          <p>我喜歡踢足球，每周至少打一次球。</p>
+  
+          <h2>閱讀習慣</h2>
+          <p>我喜歡閱讀科技類書籍，最近在讀《深度工作》這本書。</p>
+  
+          <h2>旅遊經驗</h2>
+          <p>我喜歡旅遊，曾經去過台灣、泰國和新加坡。</p>
+        </div>
+  
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#home" data-transition="flip">基本資訊</a></li>
+              <li><a href="#interests" data-transition="flip" class="ui-btn-active ui-state-persist">興趣愛好</a></li>
+              <li><a href="#education"  data-transition="flip">學歷經歷</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+       <!-- 學歷經歷頁面 -->
+    <div data-role="page" id="education">
+        <div data-role="header">
+          <h1>學歷經歷</h1>
+        </div>
+  
+        <div data-role="main" class="ui-content">
+          <h2>學歷</h2>
+          <ul data-role="listview">
+            <li>
+              <h3>景文科技大學</h3>
+              <p>電資一實，2022-2023年</p>
+            </li>
+        
+          </ul>
+  
+          <h2>經歷</h2>
+          <ul data-role="listview">
+           
+            <li>
+              <h3>電資</h3>
+              <p>實習生，2023年</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#home">基本資訊</a></li>
+              <li><a href="#interests">興趣愛好</a></li>
+              <li><a href="#education" class="ui-btn-active ui-state-persist">學歷經歷</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
